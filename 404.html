@@ -5,11 +5,29 @@ permalink: /404.html
 <html>
 <head>
   <title>Error 404</title>
+  <style>
+    .error{
+      color: purple;
+      float: left;
+    }
+    span.error{
+      font-size: 10em;
+    }
+    img.error{
+     float: right;
+    }
+  </style>
 </head>
-<body>
-<h1>Error 404</h1>
-<h2>File Not Found</h2>
-<h3>The File You Are Trying To Access Was Not Found</h3>
-<h3>Check That The URL You Have Entered Is Correct</h3>
+<body class="error">
+  <h1 class="error">Oops, you found our 404 page</h1>
+  <br/>
+  <h2 class="error">This is not a fault, just an accident that was not intentional.</h2>
+  <br/>
+  <span class="error">404</span>
+  <br/>
+  <img src="/error.png"class="error"/>
+  <br/>
+  <h3 class="error">However, we doubt that this is the page you're looking for and we apologize profusely for it</h3>
+  <a href="/">Go To Home</a>
 </body>
 </html>
