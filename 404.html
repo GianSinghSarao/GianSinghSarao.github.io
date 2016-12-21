@@ -13,15 +13,15 @@ permalink: /404.html
   <!--This Page-->
   <title>Error 404</title>
   <style>
-    #Error-card.Main-card {
-      background: url('/error.png');
+    #error-image{
+      float: right;
     }
   </style>
 </head>
 <body>
   <div class="Main-layout Main-js-layout Main-layout--fixed-header">
       <header class="Main-layout__header">
-          <div class="Main-layout__header-row">
+          <div class="Main-layout__header-row Main-color--grey">
             <span class="Main-layout-title">
               Error 404
             </span>
@@ -30,11 +30,12 @@ permalink: /404.html
       <main class="Main-layout__content">
           <div class="Main-grid"id="ContentContainer">
               <div class="Main-cell Main-cell--12-col-desktop Main-cell--8-col-tablet Main-cell--4-col-phone">
-                  <div class="Main-card Main-shadow--2dp Main-color--grey-800 Main-color-text--white" style="min-width: 100%" id="Error-card">
+                  <div class="Main-card Main-shadow--2dp Main-color--grey-800 Main-color-text--white" style="min-width: 100%">
                       <div class="Main-card__title Main-color-text--white Main-card--expand">
                         <span class="Main-card__title-text">
                           Oops, you found our 404 page
                         </span>
+                        <img alt="Purple Cuddly Animal" src="/Framework/error.png" id="error-image"/>
                       </div>
                       <div class="Main-card__supporting-text Main-color-text--white">
                         This is not a fault, just an accident that was not intentional.
