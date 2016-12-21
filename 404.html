@@ -4,6 +4,13 @@ permalink: /404.html
 <!doctype html>
 <html>
 <head>
+  <!--Framework-->
+  <link rel="stylesheet" type="text/css" href="/Framework/index.css">
+  <link rel="stylesheet" type="text/css" href="/Framework/custom.css">
+  <link rel="stylesheet" type="text/css" href="/Framework/material-icons.css">
+  <script src="/Framework/index.js"></script>
+  <script src="https://content.jwplatform.com/libraries/m8FfhJcf.js"></script>
+  <!--This Page-->
   <title>Error 404</title>
   <style>
     .error{
@@ -21,22 +28,35 @@ permalink: /404.html
       margin: auto;
     }
     div.ContentContainer{
-      margin:auto;
+      margin-left: 10%;
+      margin-right: 10%;
     }
   </style>
 </head>
-<body class="error">
-  <div class="ContentContainer">
-  <h1 class="error">Oops, you found our 404 page</h1>
-  <br/>
-  <h2 class="error">This is not a fault, just an accident that was not intentional.</h2>
-  <br/>
-  <span class="error">404</span>
-  <br/>
-  <img src="/error.png"class="error"/>
-  <br/>
-  <h3 class="error">However, we doubt that this is the page you're looking for and we apologize profusely for it</h3>
-  <a href="/">Go To Home</a>
-</div>
+<body>
+  <div class="Main-layout Main-js-layout Main-layout--fixed-header">
+      <header class="Main-layout__header">
+          <div class="Main-layout__header-row"><span class="Main-layout-title">Error 404</span></div>
+      </header>
+      <main class="Main-layout__content">
+          <div class="Main-grid"id="ContentContainer">
+              <div class="Main-cell Main-cell--12-col-desktop Main-cell--8-col-tablet Main-cell--4-col-phone">
+                  <div class="Main-card Main-shadow--2dp Main-color--grey-800 Main-color-text--white" style="min-width: 100%">
+                      <div class="Main-card__title Main-color-text--white"><span class="Main-card__title-text">Oops, you found our 404 page</span></div>
+                      <div class="Main-card__supporting-text Main-color-text--white">
+                        This is not a fault, just an accident that was not intentional.
+                        However, we doubt that this is the page you're looking for and we apologize profusely for it.
+                      </div>
+                      <div class="Main-card__media">
+                        <img alt="Purple Cuddly Animal" src="/error.png"/>
+                      </div>
+                      <div class="Main-card__actions Main-card--border">
+                        <a href="/">Go To Home</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </main>
+  </div>
 </body>
 </html>
