@@ -13,42 +13,32 @@ permalink: /404.html
   <!--This Page-->
   <title>Error 404</title>
   <style>
-    .error{
-      color: purple;
-      float: left;
-    }
-    span.error{
-      font-size: 10em;
-    }
-    img.error{
-     float: right;
-    }
-    a{
-      float: none;
-      margin: auto;
-    }
-    div.ContentContainer{
-      margin-left: 10%;
-      margin-right: 10%;
+    .Main-card--image.mdl-card {
+      background: url('/error.png');
     }
   </style>
 </head>
 <body>
   <div class="Main-layout Main-js-layout Main-layout--fixed-header">
       <header class="Main-layout__header">
-          <div class="Main-layout__header-row"><span class="Main-layout-title">Error 404</span></div>
+          <div class="Main-layout__header-row">
+            <span class="Main-layout-title">
+              Error 404
+            </span>
+          </div>
       </header>
       <main class="Main-layout__content">
           <div class="Main-grid"id="ContentContainer">
               <div class="Main-cell Main-cell--12-col-desktop Main-cell--8-col-tablet Main-cell--4-col-phone">
                   <div class="Main-card Main-shadow--2dp Main-color--grey-800 Main-color-text--white" style="min-width: 100%">
-                      <div class="Main-card__title Main-color-text--white"><span class="Main-card__title-text">Oops, you found our 404 page</span></div>
+                      <div class="Main-card__title Main-color-text--white Main-card--expand">
+                        <span class="Main-card__title-text">
+                          Oops, you found our 404 page
+                        </span>
+                      </div>
                       <div class="Main-card__supporting-text Main-color-text--white">
                         This is not a fault, just an accident that was not intentional.
                         However, we doubt that this is the page you're looking for and we apologize profusely for it.
-                      </div>
-                      <div class="Main-card__media">
-                        <img alt="Purple Cuddly Animal" src="/error.png"/>
                       </div>
                       <div class="Main-card__actions Main-card--border">
                         <a href="/">Go To Home</a>
