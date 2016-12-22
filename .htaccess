@@ -1,2 +1,5 @@
+#Find And Load ErrorDocument
 ErrorDocument 404 /404.html
+
+#Set Default Page To index.html instead of index.php
 DirectoryIndex index.html
