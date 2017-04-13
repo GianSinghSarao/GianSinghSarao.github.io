@@ -1,0 +1,2 @@
+var users = '{"adminUsers":[{"username":"RmhgbyFSaG9maSFSYHNgbg==","password":"Rmhgb0pgdHMxMzEz","name":"Gian Singh Sarao","imgID":"05"},{"username":"aHVyXnhudHNebGBvXnJgbWxu","password":"VG11c2Bmc2BobzYx","name":"Salmaan Mohamed","imgID":"10"},{"username":"amBxaA==","password":"YG1keWZ0cWgwMw==","name":"Kacper Horbacz","imgID":"07"}],"Users":[{"username":"czNkZWBvaG1g","password":"Umxgc3VzbmBlMzg=","name":"Danila Petrasko","imgID":"03"}]}';
+users = JSON.parse(users);
