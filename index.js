@@ -2,7 +2,7 @@ requirejs.config({
     baseUrl: 'js/'
 });
 (function(window, document, requirejs){
-requirejs(['_'], function(){
+requirejs(['-'], function(){
   componentHandler.upgradeDom();
 });
 })(window, document, requirejs);
