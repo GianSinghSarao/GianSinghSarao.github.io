@@ -1,5 +1,5 @@
 requirejs.config({
-    baseUrl: 'js/'
+  baseUrl: 'js/'
 });
 (function(window, document, requirejs){
 requirejs(['-'], function(){
