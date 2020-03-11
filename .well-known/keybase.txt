@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/giansinghsarao
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://giansinghsarao.github.io
+  * I am giansinghsarao (https://keybase.io/giansinghsarao) on keybase.
+  * I have a public key with fingerprint 1363 B992 676B 686F 0EEC  A8EA 503B F06C A9CA 641B
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e4957667d2e82493a981e067070383dd5fb95b4e14421286c6da90e575a6f7a40a",
+      "fingerprint": "1363b992676b686f0eeca8ea503bf06ca9ca641b",
+      "host": "keybase.io",
+      "key_id": "503bf06ca9ca641b",
+      "kid": "0101899a8a69ce4af2846f571b402b5bd719f234f22b166ba984459b21a863b23f630a",
+      "uid": "c4c19bab3271a64ce31f4f061fb05119",
+      "username": "giansinghsarao"
+    },
+    "service": {
+      "hostname": "giansinghsarao.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1583939396,
+  "expire_in": 157680000,
+  "prev": "8f36357a632162b9ae308085918789ec01ab70779726a2120eb754881a98f3f3",
+  "seqno": 17,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMNvAnicbVJ/UFRVFIZlKSUzKGITRMcnak6I777fbxmDIA2aSIlWBizXe9+7j32w
+7oPdZQVByQINkZmMHGPMZhoxBGfEETKcSNhSK6LGoaCGLJNkKDNzzCFsYeg+yv+8
+9487997vfOf7zjnnHowIiwrfkHrT3davJoR/GWwvD9vsmnm6ikKGWknZq6gSPHtg
+t4p9fmeJrlJ2igYMjTmZFwVBVBksMZzMQlkCmBZEWqRZiVVVXkMyjzgMOI4BjCQo
+ggplGvMiDwVNhBwNqWRK0z1F2Fvq1T1+QgtYgUWyzAiigARJ0GiMFShhyNMs0mhB
+gbICBQ4gEugyfGYEEYegD6foBnkjF+esvHvg7+qmgSTLUIKCrGAOaozECRovAsTR
+DOKRKgJZY1hOYxgEBAERTxzHy4gBUCLSGFYT2Fnd5bN0CqcAGUHEMiIgiRTMAo0j
+iYGGaB4A2QT6sNcDt2KCLtKhx0f8unzQCw1qRzJF/gK6gs3ymn7uiUsp0v2ucvSf
+w1Kv4TcUw01QLr+/1Gc3WfyVpWbYNoyc/xM6ke5RCQOJCGCvTzc8lB0QpOLXzQyA
+l1jZ3EIyhStKdS926iaCtFOiyTLz4AChlDTSEF6EAssAgUEyxCwt0RIvA0mUZKzQ
+ACLSb1EWGQEy5kwgkeckCZC6aazGUqbFMo9BuEWiExYRTp9e5IH+ci+mdnwSfMka
+Fh4Vdl+kxRy5sKi50XcH8YHph2ZUerhwsr19dGy8vKH7oPs68ljGM4yr0TtnYrK/
+SJxsKeZ+yGvG6+nsr5sjYipOv/dudb56Xo9fnPX2ofQsa25v92iatWByKKhXv1W5
+6AX38MWkY3FPjj/r+OwdOi+t4Jem7IILgceddXuHorqj9jXJgd49HyxevSFr0/xX
+48r+oWv3+xc5ArhiyeDEby05hVPTm2ILq+ptfcGkheW2+xc033wMbwzALQdcywrS
+kiInLhTfmg6zGHDgUtzZstH6Mz3zb2ys+r6m8+8/fxzMjbBszYjMaTzRmn4iOGqz
+hIK3nRM19ZPbV8LSqY7GwZE3Z7hQ5vDVFGNkb+LmXe+/nFpzu++Nrm+cfeO5p7df
+YRx2aekpW93xWutzDfMDqY4m2+Fgxbc6Bj9bjnvqi3fVOYY0dKZ6NDMruParzqf6
+7HeWPRo/GLqefCWmgGVU+eLQguh134Xm7b6xts/22siLCXmW/PSl0Ubiql73iG3J
+nMkjIwd+Aq9cTvo9J3MoeudYz+enMoY+Wv5xbO2cO3+sjtvW0NNZ4ujfsz88a83l
+xpaUFbFTJRXrB2p6uuZ1dBwaWF7S5Vt11H625ZktocSH+7uPZeafv3br3OvySUXX
+Ql1jMK+14tMj2ScPMrKlel+C5JhZOdcRZ13j+nXgkcMfzngdR9XWtkt/Da+Lz36i
+MKJ9hbPNeu35zoXjzL/Vg7/4
+=VbPM
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/giansinghsarao
+
+==================================================================
