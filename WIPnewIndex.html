@@ -8,12 +8,17 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <style>
+      html, body, h1, h2, h3, h4, h5, h6 {
+        font-family: "Roboto", sans-serif
+      }
+    </style>
   </head>
   <body class="w3-light-grey">
   <main class="w3-row">
     <section class="w3-col l4 m6 w3-container w3-white w3-border w3-padding-small">
       <div class="w3-display-container">
-        <img src="/images/3.png" style="width:100%" alt="Avatar">
+        <img src="https://giansinghsarao.github.io/images/3.png" style="width:100%" alt="Avatar">
         <div class="w3-display-bottomleft w3-container w3-text-black">
           <h1>
             Gian Singh Sarao
@@ -43,7 +48,7 @@
         </p>
         <hr>
         <p>
-          First Computer: Dell Inspiron 531 (AMD Athlon 64 X2 5000+ @ 2611.6 GHz + 	ATI Radeon HD 2400 PRO)
+          First Computer: Dell Inspiron 531 (AMD Athlon 64 X2 5000+ @ 2.6 GHz + ATI Radeon HD 2400 PRO + 4 * Samsung 2GB DDR2-537)
           <br>
           Favourite Code Editor: Visual Studio Code
           <br>
@@ -54,12 +59,25 @@
     </section>
     <section class="w3-col l8 m6 w3-container">
       <h2>
-          Portfolio
-        </h2>
+        Portfolio
+      </h2>
+      <p>
+        This page is supposed to be a list of projects I have worked on. So far, I have no serious projects. None. All I
+        have are this page and a couple of odd side projects that I worked on for a while then ran out of motivation to
+        finish up. Though seeing my own projects on here does occasionally motivate me, so I might as well list my side
+        projects here. Feel free to flick through the Git repositories. Who knows? Maybe you might find some interesting
+        oddities.
+      </p>
+      <div class="w3-white w3-padding-small">
+        <h3>The String Encrypter</h3>
         <p>
-          This page is supposed to be a list of projects I have worked on. So far, I have no serious projects. None. All I have are this page and a couple of odd side projects that I worked on for a while then ran out of motivation to finish up.
-  Though seeing my own projects on here does occasionally motivate me, so I might as well list my side projects here. Feel free to flick through the Git repositories. Who knows? Maybe you might find some interesting oddities.
+          This project was the result of following a tutorial about a deprecated/obsolete tech stack while researching something else entirely. My original goal was to find a method to pack a web page into a single file that the user can download and use. Example applications would be HTML eBooks, and reference pages, but as a single file download. I came across HTA files and a tutorial on how to make a string encrypter. It seemed interesting so I followed the short tutorial to the end, then I began to customize it by putting in my nickname, and getting rid of the tacky marquee element usage. 
         </p>
-      </section>
+        <img alt="string encrypter prior to v1">
+        <p>
+          The styling was light, to put it nicely, And frankly it didn't look modern or contemporary at all, like it could have. Though to be fair this is to be expected considering the short length of the tutorial/artice. Now this was a fairly rubbish application that relied on internet explorer being pre-installed and VBScript not being disabled. So I tried to improve it and failed. Mainly because converting VBscript to ES3 JavaScript then to ES5 was a non-trivial task for an amatuer like me who had only known modern ES5, and at the time didn't even know that JavaScript had versions. By now I had completely forgotten my original goal, which in hindsight had already been fulfilled by PDFs. I eventually gave in and started looking for a new solution to desktop HTML apps. I wanted something quick that could run on any os without dependending on IE, or IE specific behaviours. So I opened up chrome, and started coding. Just to be clear, I didn't open notepad or some other text editor. I just started writing HTML+CSS+JS in chrome's 'omnibox' albeit prefixed with a data url scheme, and without a single line break. At one point I pasted in an entire  framework, and continued with that. I also pasted in a small symmetric enryption algorithm which i researched during a lesson at school and had saved in the url area of a bookmark which synced automatically to my laptop at home. And done. An entirely offline capable single file, single page application. I cut it out of the omnibox with CTRL-A and CTRL-X, and pasted it into an index.html file with CTRL-V. If someone right clicks the open webpage and clicks save page as, they can download a single file, and have it keep it's styles and functionality, even when offline. Now this was good. It was good but, I wasn't satisfied. After seeing the way I could launch an HTA as if it was an app, without any tabs or url bars, this wasn't good enough. But I already knew the solution to this problem was to make a chrome app. but that would lock it into chrome, what about firefox or IE users. then while googling I discovered atom shell, now known as electron. in the early days, and even now I suppose, electron was the best way to get native like os integration for web apps. so i tried it. I copied in a tiny main.js file which only launches the index.html file in electron. and it worked great. for me who was a js noob at the time, and mainly used php, nodejs was new and unknown world, which was</p>
+          <img src="https://giansinghsarao.github.io/images/1.png" alt="A Screenshot Of String Encrypter V1"style="width: 100%;">
+      </div>
+    </section>
   </body>
 </html>
