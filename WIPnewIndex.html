@@ -16,7 +16,7 @@
   </head>
   <body class="w3-light-grey">
   <main class="w3-row">
-    <section class="w3-col w3-row l4 m12 w3-container w3-white w3-border w3-padding-small">
+    <section class="w3-col l4 m12 w3-row w3-container w3-white w3-border w3-padding-small">
       <div class="w3-display-container w3-col l12 m6 s12">
         <img src="https://giansinghsarao.github.io/images/3.png" style="width:100%" alt="Avatar">
         <div class="w3-display-bottomleft w3-container w3-text-black">
@@ -58,7 +58,7 @@
         </p>
       </div>
     </section>
-    <section class="w3-col l8 m12 s12 w3-container">
+    <section class="w3-col l8 m12 s12 w3-container w3-white w3-border w3-padding-small">
       <h2>
         Portfolio
       </h2>
@@ -69,137 +69,23 @@
         projects here. Feel free to flick through the Git repositories. Who knows? Maybe you might find some interesting
         oddities.
       </p>
-      <div class="w3-white w3-padding-small">
-        <h3>The String Encrypter</h3>
-        <h4>Story</h4>
-        <p>
-          This project was the result of following a tutorial about a deprecated/obsolete tech stack while researching something
-          else entirely. My original goal was to find a method to pack a web page into a single file that the user can download
-          and use. Example applications would be HTML eBooks, and reference pages, but as a single file download. 
-        </p>
-        <p>
-          I came across HTA files and a tutorial on how to make a string encrypter. It seemed interesting so I followed the short
-          tutorial to the end, then I began to customize it by putting in my nickname, and getting rid of the tacky marquee
-          element usage.
-        </p>
-        <img src="https://giansinghsarao.github.io/images/0.png" alt="A Screenshot Of String Encrypter ~V0.7" style="width: 100%;">
-        <p>
-          Objectively speaking, this was a fairly rubbish application that relied on internet explorer being pre-installed and
-          VBScript not being disabled. Moreover it was an application that existed only to show off the features of HTAs, the
-          main one being that instead of running in a browser tab with an address bar, it ran in an almost entirely chromeless
-          window. Remember, offline pages still existed in some form or another, even if not as easy for the end-user as it is
-          today. Albeit imperfect, clicking "Save Page As" in the context menu of a page was a common occurence.
-        </p>
-        <p>
-          Of course, as one would expect from an article about an already dying technology, the application made for it, had light
-          styling, to put it nicely, but frankly, considering most websites and templates at the time were made using libraries 
-          like bootstrap 3, it looked pathetically ugly.
-        </p>
-        <p>
-          So I tried to improve it and failed. Mainly because I wanted to first begin reducing it's dependencies on IE, and 
-          then potentially introduce better styling. I was already stuck on the first step because, for an amatuer like myself,
-          who had only ever copied and pasted js, and not written much outside of codeacedamy lessons, the difference in syntax 
-          and types between VBScript and JavaScript was already difficult to consolidate. 
-        </p>
-        <p>
-          <i>
-            Of course, I was still a Bootstrap 3 Pro, who could reflexively type up a whole jumbotron-centred page layout in html, 
-            and I was still a batch prodigy, who could easily write batch scripts to stagger startup of background services. I was
-            even rocking a dual monitor setup between my PC and the living room TV which I had setup entirely myself while still 
-            in primary school.
-          </i>
-        </p>
-        <p>
-          Appalled by the ugliness of the application, I had completely forgotten my original goal(which in hindsight had already
-          been fulfilled by PDFs) and began my attempt at improving the code.
-        </p>
-        <p>
-          After trying and failing to convert the VBScript to JavaScript using a random website, I started trying to convert it
-          by hand, by googling unknown terms from the VBScript, but after just one night learning a new language I gave up on
-          translating the VBScript, and I started looking for a new solution to desktop HTML apps.
-        </p>
-        <p>
-          Instead of trying to improve it, I now wanted to rewrite it entirely, but with different goals. I wanted something
-          simple that could run on any os without dependending on IE, or IE specific behaviours, and as far as I could tell the
-          best solution was to just inline all the resources into the HTML. This would later be called the String Encrypter V2.
-          with (Beta) in its name, because its still being developed.
-        </p>
-        <p>
-          So I opened up chrome, and started coding. Just to be clear, I didn't open notepad or some other text editor. I just
-          started writing HTML+CSS+JS in chrome's "omnibox". In case you don't know, Chrome was less strict about data URL
-          security back in those days so it worked and without any caveats. Whenever I wanted to test the layout or something
-          similar, I would press enter to load the html as a page, then edit the URL again to edit the page. No need for a live
-          server.
-        </p>
-        <p>
-          In new tabs, I opened the minified css and js of a relatively new framework called MDL and copied and pasted each into
-          the appropriate style or script tag in the data url. I even wanted to inline fonts and favicons, but after some
-          googling in another new tab, I realized that it was probably imposible to do. So I moved on, onto the interface.
-        </p>
-        <p>
-          At this point, I had inlined a whole framework, but the app was still unusable because I had no cryptography function
-          that was written in js. So I decided to save my work for later, which involved pressing enter to load the page, and then
-          clicking the bookmark icon, to make a bookmark which will remember the url for me.
-        </p>
-        <p>
-          A short while later, maybe a week or two, I was in school attending lessons, perhaps History, perhaps Geography, I can't
-          remember. Point is, at that time, we were given school laptops, and told to do some research, and so I did, Except not
-          about the subject, whatever it was, but about encryption, and it was difficult. There was some math that I to this day
-          think that I will probably never understand. 
-        </p>
-        <p>
-          So I looked around for some other code, at which point I found a page with a short algorithm to encrypt some data using
-          bitwise XOR, which as an amatuer and basically a script kiddie, blew my mind. I tried some experiments in Chrome DevTools
-          using it, and modified it a bit, then I pasted the modified function, into the URL field of a new bookmark prompt, and
-          clicked save, just as the bell rang to signify the end of the lesson.
-        </p>
-        <p>
-          After hurriedly logging off and returning the school laptop, I went to my next lesson, which as it would happen was
-          Computing. As I take a seat at the PC assigned to me, I reflexively log in to my chrome account after logging into my
-          AD account (just as I had a couple minutes before when using the laptops). Syncing the newly made bookmark to this
-          different device. Though this time, I actually pay attention to the lesson, and leave the experiments till I get home.
-        </p>
-        <p>
-          Later, at home, I start working on the project again and edit the data url, pasting in the small symmetric encryption
-          function, And done. An entirely offline capable single-file, single-page-application.
-        </p>
-        <p>
-          I cut it out of the omnibox, taking care to highlight everything in it with CTRL-A, and pasted it into an HTML file.
-          If I upload it to a server somewhere, and if someone right clicks the open webpage and clicks save page as, they can
-          download a single-file, and have it keep it's styles and functionality, even when offline.
-        </p>
-        <p>
-          Now this was good. It was good, but I wasn't satisfied. After seeing the way I could launch an HTA as if it was an app,
-          without any tabs or url bars, this wasn't good enough. And I already knew the widely accepted solution to this problem
-          was to make a chrome app. But that would lock it into chrome. What about firefox or IE users?
-        </p>
-        <p>
-          Then while googling I discovered Electron. In the early days, and even now I suppose, Electron was the best way to get
-          native like os integration for web apps. So I tried it. I copied the HTML file I wrote in the omnibox, and a tiny
-          main.js file from the docs, into the app directory in the folder containing prebuilt Electron binaries and launched the
-          app. And it worked wonderfully well. I only realised the problems with Electron apps years later. 
-        </p>
-        <img src="https://giansinghsarao.github.io/images/2.png" alt="A Screenshot Of String Encrypter V2 (Beta)" style="width: 100%;">
-        <p>
-          I even showed it off to the few people in my computing class who knew how difficult it was to make a well designed GUI
-          desktop application. Most others would think it was cool, then go back to messing with the indentation of the python
-          which they were blindly typing in.
-        </p>
-        <p>
-          Then progress on the program stopped, mainly because literally nobody used it, not even me who made it. I turned the
-          algorithm used within, into it's own separate library, but made sure to add a disclaimer about it being insecure for
-          anything serious. This had the obvious effect of preventing anyone who stumbled upon it accidentally using it, and
-          getting their data breached. I didn't want to get blamed for misleading others into thinking it's actually secure. 
-        </p>
-        <p>
-          Fast forward some years, and I decide to bury the Electron version, because now I know that Electron is bulky and mostly
-          uneccessary for many desktop apps. Plus, the rate at which bugs are found in chromium and therefore electron was
-          picking up. There was no way I could keep releasing new builds of the app. But now, with enough knowledge to actually
-          rewrite the old HTA, I invested some time and effort into trying to modernise it. In contrast to the past, I actually
-          succeed this time, at least to a certain degree, and I record some milestones on GitHub, though some of my work gets 
-          buried in rebases, and force-pushes.
-        </p>
+      <div class="w3-white">
+        <h3 class="w3-padding">The String Encrypter</h3>
         <img src="https://giansinghsarao.github.io/images/1.png" alt="A Screenshot Of String Encrypter V1" style="width: 100%;">
+        <div class="w3-padding">
+          <p>
+            A simple encryption app made exclusively for strings of text, written using HTML, CSS, and JavaScript, for use as a HTA.
+          </p>
+          <p>
+            Initially, The result of following an ancient tutorial (Hooray for backwards compatibility!) about HTML Applications, this experiment has grown more than I intended. See the <a href="https://github.com/GianSinghSarao/String-Encrypter/wiki/String-Encrypter-Backstory">complete backstory</a> for more details.
+          </p>
+          <a class="w3-button" href="https://github.com/GianSinghSarao/String-Encrypter/">
+          	GitHub Repository
+          </a>
+          <a class="w3-button" href="https://giansinghsarao.github.io/String-Encrypter/">
+          	Project Site
+          </a>
+        </div>
       </div>
     </section>
   </body>
