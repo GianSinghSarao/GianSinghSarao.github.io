@@ -1,89 +1,196 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Gian Singh Sarao</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <style>
-      html, body, h1, h2, h3, h4, h5, h6 {
-        font-family: "Roboto", sans-serif
-      }
-    </style>
-  </head>
-  <body class="w3-light-grey">
+
+<head>
+  <title>Gian Singh Sarao</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+  <style>
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Roboto", sans-serif
+    }
+
+    .avoid-break {
+      display: inline-block;
+    }
+
+    html {
+      scroll-snap-type: y mandatory;
+      scroll-behavior: smooth;
+    }
+
+    .snap {
+      scroll-snap-stop: always;
+    }
+
+    .snap-start {
+      scroll-snap-align: start;
+    }
+
+    .snap-center {
+      scroll-snap-align: center;
+      height: 100vh;
+    }
+
+    .snap-end {
+      scroll-snap-align: end;
+    }
+
+    .w3-tag.w3-text {
+      position: absolute;
+    }
+  </style>
+</head>
+
+<body class="w3-light-grey">
   <main class="w3-row">
-    <div class="w3-col l4 m12 w3-row w3-white w3-border">
-      <div class="w3-display-container w3-col l12 m6 s12">
-        <img src="https://giansinghsarao.github.io/images/3.png" style="width:100%" alt="Avatar">
-        <div class="w3-display-bottomleft w3-container w3-text-black">
-          <h1>
-            Gian Singh Sarao
-          </h1>
-        </div>
-      </div>
-      <div class="w3-container w3-col l12 m6 s12">
+    <div class="snap snap-center w3-col l12 m12 s12 w3-display-container" id="hello">
+      <div class="w3-container w3-round-xlarge w3-border w3-display-middle w3-white">
+        <h1>
+          Hello there!
+        </h1>
         <p>
-          <i class="w3-margin-right w3-large material-icons">work</i>
-          Looking for work
-        </p>
-        <p>
-          <i class="w3-margin-right w3-large material-icons">home</i>
-          Leicester, UK
-        </p>
-        <p>
-          <i class="w3-margin-right w3-large material-icons">email</i>
-          <a href="MailTo:AwesomeOrange1000@gmail.com">Awesome<wbr>Orange<wbr>1000<wbr>@gmail.com</a>
-        </p>
-        <p>
-          <i class="w3-margin-right w3-large material-icons">fingerprint</i>
-          <a href="https://keybase.io/giansinghsarao">Verify My Identity Using Keybase</a>
-        </p>
-        <p>
-          <i class="w3-margin-right w3-large material-icons">chat</i>
-          <a href="keybase://chat/giansinghsarao">Chat With Me On Keybase</a>
-        </p>
-        <hr>
-        <p>
-          First Computer: Dell Inspiron 531 (AMD Athlon 64 X2 5000+ @ 2.6 GHz + ATI Radeon HD 2400 PRO + 4 * Samsung 2GB DDR2-537)
-        </p>
-        <p>
-          Preferred Code Editor: VSCodium/Code-Server
-        </p>
-        <p>
-          Pronouns: He/His
-        </p>
-        <p>
-          Preferred Languages: JavaScript, PowerShell
+          My name is <span class="avoid-break">Gian Singh Sarao</span>,
+          I'm a self-taught <span class="avoid-break">Web Developer</span>,
+          and this is my portfolio.
         </p>
       </div>
     </div>
-    <div class="w3-col l8 m12 s12 w3-container w3-border">
+
+    <div class="snap snap-center w3-col l12 m12 s12 w3-display-container">
+      <div class="w3-container w3-round-xlarge w3-border w3-display-middle w3-white">
+        <p>
+          But first, just a little bit more about myself!
+        </p>
+      </div>
+    </div>
+
+    <div class="snap snap-start w3-col l12 m12 s12 w3-row w3-white w3-border" id="contact">
+      <div class="w3-col w3-display-container" style="width: min-content;">
+        <img src="https://giansinghsarao.github.io/images/3.png" style="max-width: 100vw; max-height: 100vh;"
+          alt="Avatar">
+        <p class="w3-tag w3-display-bottommiddle">
+          My nickname is Orange...
+        </p>
+      </div>
+      <div class="w3-container w3-rest">
+        <p>
+          <i class="w3-margin-right w3-large material-icons">work</i>
+          I am currently <span class="w3-tag w3-orange">Looking for work</span> (ideally 100% remote)...
+        </p>
+        <p>
+          <i class="w3-margin-right w3-large material-icons">home</i>
+          I live in <span class="w3-tag w3-orange">Leicester</span> (which is a city in the UK)...
+        </p>
+        <p>
+          You can contact me:
+        </p>
+        <p>
+          <i class="w3-margin-right w3-large material-icons">email</i>
+          via email: <a class="w3-text-orange avoid-break"
+            href="MailTo:AwesomeOrange1000@gmail.com">Awesome<wbr>Orange<wbr>1000<wbr>@gmail.com</a>...
+        </p>
+        <p>
+          <i class="w3-margin-right w3-large material-icons">chat</i>
+          or via <a class="w3-text-orange" href="keybase://chat/giansinghsarao">Keybase</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="snap snap-center w3-col l12 m12 s12 w3-display-container">
+      <div class="w3-container w3-round-xlarge w3-border w3-display-middle w3-white">
+        <p>
+          What follows is even more stuff about me, but it's not as important.
+        </p>
+        <p>
+          So you can either carry on scrolling to learn more about me, or you can <a href="#portfoliostart">skip to my
+            portfolio</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="snap snap-start w3-col l12 m12 s12 w3-row w3-white w3-border" id="about">
+      <dl class="w3-container">
+        <dt>
+          My first computer was a...
+        </dt>
+        <dd>
+          Dell Inspiron 531<br>
+          ...which, I still use. Just for backups mainly.<br>
+          It has a <span class="w3-tooltip w3-text-orange">dual-core Athlon CPU<span class="w3-text w3-tag avoid-break"
+              style="left: -10%; right: -10%; top: -275%;"> (AMD Athlon 64 X2 5000+ @ 2.6 GHz)</span></span>
+          and an <span class="w3-tooltip w3-text-orange">ATI GPU<span class="w3-text w3-tag avoid-break"
+              style="left: -130%; right: -130%; top: -150%;"> (ATI Radeon HD 2400 PRO)</span></span>.
+          <br>
+          It originally came with only 2GB of RAM, but has since been maxed to <span
+            class="w3-tooltip w3-text-orange">8GB<span class="w3-text w3-tag avoid-break"
+              style="left: -350%; right: -350%; top: -275%;"> (4 two gig sticks of some DDR2-537, Samsung I
+              think)</span></span>.
+          <br>
+          Other modifications include: a replacement PSU, a new NIC, and new hard drives.
+          <br> <br>
+
+          My first experience with both windows, and linux was with this machine.<br>
+          It had Windows Vista pre-installed,
+          and when the PSU died, the repair-tech upgraded it to Windows 7.<br>
+          When one stick of RAM died and Windows 7 wouldn't boot,
+          I removed the dead stick, and used a Knoppix LiveCD. <br>
+          When I accidentally erased the Windows install, I installed OpenSUSE. <br>
+          Once the RAM had finally been replaced, I installed Windows again (8.1 this time). <br>
+          And once the RAM was maxed out, I installed Windows 10.
+        </dd>
+      </dl>
+      <p>
+        Preferred Code Editor: VSCodium/Code-Server
+      </p>
+      <p>
+        Preferred Languages: JavaScript, PowerShell
+      </p>
+    </div>
+
+    <div class="snap snap-start w3-col l12 m12 s12 w3-container w3-border" id="portfoliostart">
       <div class="w3-panel w3-white w3-border">
         <h2>
           Portfolio
         </h2>
         <p>
-          This page is supposed to be a list of projects I have worked on. So far, I have no serious projects. None. All I
-          have are this page and a couple of odd side projects that I worked on for a while then ran out of motivation to
-          finish up. Though seeing my own projects on here does occasionally motivate me, so I might as well list my side
-          projects here. Feel free to flick through the Git repositories. Who knows? Maybe you might find some interesting
+          This page is supposed to be a list of projects I have worked on. So far, I have no serious projects. None. All
+          I
+          have are this page and a couple of odd side projects that I worked on for a while then ran out of motivation
+          to
+          finish up. Though seeing my own projects on here does occasionally motivate me, so I might as well list my
+          side
+          projects here. Feel free to flick through the Git repositories. Who knows? Maybe you might find some
+          interesting
           oddities.
         </p>
       </div>
       <div class="w3-margin-bottom w3-white w3-border w3-row">
         <h3 class="w3-col w3-mobile w3-container">The String Encrypter</h3>
-        <img src="https://giansinghsarao.github.io/images/1.png" alt="A Screenshot Of String Encrypter V1" class="w3-col l12 m6 s12">
+        <img src="https://giansinghsarao.github.io/images/1.png" alt="A Screenshot Of String Encrypter V1"
+          class="w3-col l12 m6 s12">
         <div class="w3-col l12 m6 s12">
           <div class="w3-container">
             <p>
-              A simple encryption app made exclusively for strings of text, written using HTML, CSS, and JavaScript, for use as a HTA.
+              A simple encryption app made exclusively for strings of text, written using HTML, CSS, and JavaScript, for
+              use as a HTA.
             </p>
             <p>
-              Initially, The result of following an ancient tutorial (Hooray for backwards compatibility!) about HTML Applications, this experiment has grown more than I intended. See the <a href="https://github.com/GianSinghSarao/String-Encrypter/wiki/String-Encrypter-Backstory">complete backstory</a> for more details.
+              Initially, The result of following an ancient tutorial (Hooray for backwards compatibility!) about HTML
+              Applications, this experiment has grown more than I intended. See the <a
+                href="https://github.com/GianSinghSarao/String-Encrypter/wiki/String-Encrypter-Backstory">complete
+                backstory</a> for more details.
             </p>
           </div>
           <div class="">
@@ -97,5 +204,6 @@
         </div>
       </div>
     </div>
-  </body>
+</body>
+
 </html>
